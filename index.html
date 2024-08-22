@@ -3,27 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>formulario</title>
+    <title>Login</title>
     <link rel="stylesheet" href=".\index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 </head>
 <body>
-    <div class="container">
-        <form class="Login">
-            <h1>Login</h1>
-            <label for="usuario">Nombre de usuario</label> <br>
-            <input type="usuario" placeholder="escribe tu nombrede usuario">
-            <label for="contraseña">Contraseña</label>
-            <input type="contraseña" placeholder="escribe tu contraseña">
-            <button type="submit"> ingresar </button> <br>
-        </form>
-        <h3>O ingresa usando</h3>
-        <div class="social media">
-            <a href="fc"><img src="fb.png" alt="Facebook" width="35px" height="35px"></a>
-            <a href="instragram"><img src="instragram.webp" alt="instagram" width="35px" height="35px"></a>
-            <a href="x"> <img src="dc14bf8657854c461a858844f8d04009.png" alt="x" width="35px" height="35px"></a>
-        </div>
-        </div>
+  <div class="contenedor"> 
+    <form action="">
+         <h1>Login</h1>
+
+         <div class="llenar">
+            <input type="text" placeholder="Escribe tu usuario" required>
+            <i class='bx bxs-user-circle'></i>
+         </div>
+
+         <div class="llenar">
+            <input type="password" placeholder="Escribe tu contraseña" required>
+            <i class='bx bxs-lock-alt'></i>
+         </div>
+
+         <div class="olvidar">
+            <a href="#">¿Olvidaste tu contraseña?</a>
+         </div>
+
+         <button type="submit" class="boton">Login</button>
+
+         <div class="registrarme">
+            <p>¿No tienes una cuenta? <a href="# ">Registrate</a></p>
+
+         </div>
+         <div class="registro2">
+            <p>O ingresa por medio de</p> 
+            <div class="igt"> <i class='bx bxl-instagram' ></i> 
+            </div>
 
 
-</body>
-</html>
+            <div class="fcb">
+                <i class='bx bxl-facebook-circle' ></i>
+
+            </div>
+
+            <div class="mails">
+                <i class='bx bxl-gmail' ></i>
+            </div>
+         </div>
+
+
+
+    </form>
+  </div>
